@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Library_Managment_System</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Media\Back.jpg" />
+    <None Remove="Media\Back.png" />
+    <None Remove="Media\ic.png" />
+    <None Remove="Media\images.jpg" />
+    <None Remove="Media\Lib.jpg" />
+    <None Remove="Media\lms.jpeg" />
+    <None Remove="Media\login.jpg" />
+    <None Remove="Media\relaod.png" />
+    <None Remove="Media\return.jpg" />
+    <None Remove="Media\search.png" />
+    <None Remove="Media\shelf.jpg" />
+    <None Remove="Media\signup.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Media\Back.jpg" />
+    <Resource Include="Media\Back.png" />
+    <Resource Include="Media\ic.png" />
+    <Resource Include="Media\images.jpg" />
+    <Resource Include="Media\Lib.jpg" />
+    <Resource Include="Media\lms.jpeg" />
+    <Resource Include="Media\login.jpg" />
+    <Resource Include="Media\relaod.png" />
+    <Resource Include="Media\return.jpg" />
+    <Resource Include="Media\search.png" />
+    <Resource Include="Media\shelf.jpg" />
+    <Resource Include="Media\signup.jpeg" />
+  </ItemGroup>
+
+</Project>
